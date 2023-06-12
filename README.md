@@ -2,7 +2,7 @@
 
 A ChatGPT-based iOS voice app written by ChatGPT-4 (with help from Ted Barnett).  A personal life story interviewer that will generate a voice-and-text biography for the user.  Named after the 18th-century biographer [James Boswell](https://en.wikipedia.org/wiki/James_Boswell).  It can also simply act as a ChatGPT voice client.
 
-v01: basic ChatGPT conversation (with voice) on iOS
+v01: basic ChatGPT interview (with voice) on iOS
 
 <img src="Boswell_screenshot_05-16-2023.png" width="200px" />
 
