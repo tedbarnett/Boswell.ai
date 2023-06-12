@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BrightnessControlView" customModule="Boswell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="45" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXn-Qa-HNQ">
+                    <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="RCz-wV-9Tg"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <imageReference key="image" image="sun.max" catalog="system" symbolScale="large"/>
+                    </state>
+                </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ugT-pj-Qha">
+                    <rect key="frame" x="-53" y="79" width="151" height="152"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="sliderBrightnessChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="AE9-WA-JaS"/>
+                    </connections>
+                </slider>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGr-cy-cUS">
+                    <rect key="frame" x="0.0" y="205" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="DlI-mP-iiO"/>
+                    </constraints>
+                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <imageReference key="image" image="sun.min" catalog="system" symbolScale="large"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="CGr-cy-cUS" secondAttribute="bottom" id="3s1-2A-GYC"/>
+                <constraint firstItem="CGr-cy-cUS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6DK-8G-rH4"/>
+                <constraint firstItem="HXn-Qa-HNQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TxW-iO-ckR"/>
+                <constraint firstAttribute="trailing" secondItem="HXn-Qa-HNQ" secondAttribute="trailing" id="a2k-mC-tsX"/>
+                <constraint firstItem="CGr-cy-cUS" firstAttribute="top" secondItem="ugT-pj-Qha" secondAttribute="bottom" constant="-25" id="bEu-eh-Q8y"/>
+                <constraint firstItem="ugT-pj-Qha" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="i55-82-KuD"/>
+                <constraint firstItem="ugT-pj-Qha" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-51" id="lN9-GF-G8t"/>
+                <constraint firstAttribute="trailing" secondItem="CGr-cy-cUS" secondAttribute="trailing" id="mCZ-sF-FaT"/>
+                <constraint firstAttribute="trailing" secondItem="ugT-pj-Qha" secondAttribute="trailing" constant="-51" id="ofz-vG-qX2"/>
+                <constraint firstItem="HXn-Qa-HNQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yTS-Zl-zX0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sliderBrightness" destination="ugT-pj-Qha" id="MrX-FP-FEE"/>
+            </connections>
+            <point key="canvasLocation" x="60" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sun.max" catalog="system" width="128" height="125"/>
+        <image name="sun.min" catalog="system" width="128" height="123"/>
+    </resources>
+</document>

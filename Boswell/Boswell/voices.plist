@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>voices</key>
+	<array>
+		<dict>
+			<key>voice_id</key>
+			<string>QLDpjA3Tp8dTYYjXHDz8</string>
+			<key>voice_name</key>
+			<string>British Male</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>NWNKFItRDuolV6H0gABQ</string>
+			<key>voice_name</key>
+			<string>Neil</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>lBgWrTem2zB8tjHORFPx</string>
+			<key>voice_name</key>
+			<string>Ted</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>21m00Tcm4TlvDq8ikWAM</string>
+			<key>voice_name</key>
+			<string>Rachel</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>TxGEqnHWrfWFTfGW9XjX</string>
+			<key>voice_name</key>
+			<string>Josh</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>AZnzlk1XvdvUeBnXmlld</string>
+			<key>voice_name</key>
+			<string>Domi</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>VR6AewLTigWG4xSOukaG</string>
+			<key>voice_name</key>
+			<string>Arnold</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>ErXwobaYiN019PkySvjV</string>
+			<key>voice_name</key>
+			<string>Antoni</string>
+		</dict>
+		<dict>
+			<key>voice_id</key>
+			<string>pNInz6obpgDQGcFmaJgB</string>
+			<key>voice_name</key>
+			<string>Adam</string>
+		</dict>
+	</array>
+</dict>
+</plist>
