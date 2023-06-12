@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OpenAI_API_Key</key>
+	<string>ENTER_YOUR_OPENAI_API_KEY_HERE</string>
+	<key>ELEVEN_LABS_API_KEY</key>
+	<string>ENTER_YOUR_ELEVEN_LABS_API_KEY_HERE</string>
+	<key>ELEVEN_LABS_VOICE_ID</key>
+	<string>ENTER_YOUR_ELEVEN_LABS_VOICE_ID_HERE</string>
+</dict>
+</plist>
